@@ -8,13 +8,5 @@
   "dependencies": {
     "lodash-node": "*",
     "googleapis": "*"
-  },
-  "readme": "dpd-gapi\n========\n",
-  "readmeFilename": "README.md",
-  "description": "dpd-gapi ========",
-  "_id": "dpd-gapi@0.0.1",
-  "dist": {
-    "shasum": "159b29a15c183db41e1d4d19cfdc19c5dde16a0c"
-  },
-  "_from": "dpd-gapi/"
+  }
 }
