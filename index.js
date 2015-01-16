@@ -207,10 +207,10 @@ GAPIResource.prototype.handle = function(ctx, next) {
         }
         else {
             // set the access and refresh tokens for the request
-            oauth2Client.credentials = {
+            oauth2Client.setCredentials({
                 access_token  : oauthConfig.access_token,
                 refresh_token : oauthConfig.refresh_token
-            };
+            });
 
             // Get the api object
             // An example this would equate to is googleapis.drive('v2');
